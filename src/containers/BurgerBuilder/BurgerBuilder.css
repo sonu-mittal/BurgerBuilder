@@ -1,0 +1,10 @@
+.BurgerBuilder {
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .BurgerBuilder {
+    display: flex;
+    flex-direction: column;
+  }
+}
